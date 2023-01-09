@@ -1,9 +1,72 @@
 const COINSFROM = ['ALGO', 'BNB', 'USDT', 'ETH', 'BTC', 'BUSD'];
 const COINSFTO = ['ALGO', 'BNB', 'USDT', 'ETH', 'BTC'];
-const API_BASIC_URL = "http://localhost:8000/api/"
+const API_BASIC_URL = "http://localhost:8000/api/";
+const roadmapInfo = [
+  {
+    date: 'Q1 2023',
+    content: ['PancakeSwap Listing']
+  },
+  {
+    date: 'Q2 2023',
+    content: ['Legal Registration and compliance ',
+      'Art and Metadata']
+  },
+  {
+    date: 'Q3 2023',
+    content: ['Bond Token For Pool Liquidity']
+  },
+  {
+    date: 'Q4 2023',
+    content: ['Mayor Exchange Listing']
+  },
+  {
+    date: 'Q1 2024',
+    content: ["Asset Backed Mechanism and Server's Implementation for computer power"]
+  },
+  {
+    date: 'Q2 2024',
+    content: ['Reverse Transaction App Contract']
+  },
+  {
+    date: 'Q3 2024',
+    content: ['NFT, Defi, Spot, Option, Wallet, Insurance, Gaming Launch pad, Dex']
+  },
+  {
+    date: 'Q4 2024',
+    content: ['Major Marketing Campaign']
+  },
+]
+const teamAvatar = [
+  {
+    role: 'CEO',
+    name: 'Naynardo Saunders',
+    url: '/assets/images/team/jrby.webp',
+    link_url: 'https://www.linkedin.com/in/naynardo-saunders-381a34258'
+  },
+  {
+    role: 'CTO',
+    name: 'Amaury Loaiza',
+    url: '/assets/images/team/thegufi.webp',
+    link_url:'https://www.linkedin.com/in/amaury-loaiza'
+  },
+  {
+    role: 'CMO',
+    name: 'Carlos Selman',
+    url: '/assets/images/team/zonedout.webp',
+    link_url:"https://www.linkedin.com/in/carlos-selman-b5920a52"
+  },
+  {
+    role: 'Lead Developer',
+    name: 'Sun Tana',
+    url: '/assets/images/team/thegufi.webp',
+    link_url:'https://www.linkedin.com/in/sun-tana-6b2189236'
+  },
+]
 
 export {
   COINSFROM,
   COINSFTO,
-  API_BASIC_URL
+  API_BASIC_URL,
+  roadmapInfo,
+  teamAvatar
 }

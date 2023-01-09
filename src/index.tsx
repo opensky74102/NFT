@@ -4,13 +4,16 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "./i18n";
+import { DAppProvider } from "@usedapp/core";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+     <DAppProvider config={{}}>
+      <App />
+    </DAppProvider>
   </React.StrictMode>
 );
 
