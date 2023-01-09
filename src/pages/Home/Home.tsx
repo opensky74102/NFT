@@ -9,69 +9,9 @@ import './Home.scss';
 import Team from 'components/Team';
 import useSwiperRef from 'hooks/useSwiper';
 import RoadmapBox from 'components/RoadmapBox';
+import { TeamAvatar, RoadmapInfo} from 'const/Consts';
 
-const roadmapInfo = [
-  {
-    date: 'Q1 2023',
-    content: ['PancakeSwap Listing']
-  },
-  {
-    date: 'Q2 2023',
-    content: ['Legal Registration and compliance ',
-      'Art and Metadata']
-  },
-  {
-    date: 'Q3 2023',
-    content: ['Bond Token For Pool Liquidity']
-  },
-  {
-    date: 'Q4 2023',
-    content: ['Mayor Exchange Listing']
-  },
-  {
-    date: 'Q1 2024',
-    content: ["Asset Backed Mechanism and Server's Implementation for computer power"]
-  },
-  {
-    date: 'Q2 2024',
-    content: ['Reverse Transaction App Contract']
-  },
-  {
-    date: 'Q3 2024',
-    content: ['NFT, Defi, Spot, Option, Wallet, Insurance, Gaming Launch pad, Dex']
-  },
-  {
-    date: 'Q4 2024',
-    content: ['Major Marketing Campaign']
-  },
-]
-const teamAvatar = [
-  {
-    role: 'founder | artist',
-    name: 'John Smith',
-    url: '/assets/images/team/jrby.webp'
-  },
-  {
-    role: 'co-founder | developer',
-    name: 'John Smith',
-    url: '/assets/images/team/thegufi.webp'
-  },
-  {
-    role: 'lead developer',
-    name: 'John Smith',
-    url: '/assets/images/team/zonedout.webp'
-  },
-  {
-    role: 'lead developer',
-    name: 'John Smith',
-    url: '/assets/images/team/thegufi.webp'
-  },
-  {
-    role: 'developer',
-    name: 'John Smith',
-    url: '/assets/images/team/zonedout.webp'
-  },
-]
+
 export default function Home() {
   const [nextEl, nextElRef] = useSwiperRef();
   const [prevEl, prevElRef] = useSwiperRef();
@@ -216,7 +156,7 @@ export default function Home() {
             <h1 className='text-[30px] sm:text-[40px] text-white font-bold font-chakrapetch uppercase'><Trans i18nKey={'timeline'}>Algonrich TIMELINE</Trans></h1>
           </div>
           <div className='text-white w-[90%] m-auto'>
-            <RoadmapBox data={roadmapInfo} />
+            <RoadmapBox data={RoadmapInfo} />
           </div>
         </div>
       </div>
@@ -254,7 +194,7 @@ export default function Home() {
               data-aos-delay="50"
               data-aos-anchor-placement="center-bottom"
             >
-              <Team data={teamAvatar} perview={window.innerWidth <= 768 ? 1 : 3} nav={{
+              <Team data={TeamAvatar} perview={window.innerWidth <= 768 ? 1 : 3} nav={{
                 prevEl,
                 nextEl,
               }} />

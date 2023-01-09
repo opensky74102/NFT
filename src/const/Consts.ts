@@ -1,7 +1,7 @@
 const COINSFROM = ['ALGO', 'BNB', 'USDT', 'ETH', 'BTC', 'BUSD'];
 const COINSFTO = ['ALGO', 'BNB', 'USDT', 'ETH', 'BTC'];
 const API_BASIC_URL = "http://localhost:8000/api/";
-const roadmapInfo = [
+const RoadmapInfo = [
   {
     date: 'Q1 2023',
     content: ['PancakeSwap Listing']
@@ -36,7 +36,7 @@ const roadmapInfo = [
     content: ['Major Marketing Campaign']
   },
 ]
-const teamAvatar = [
+const TeamAvatar = [
   {
     role: 'CEO',
     name: 'Naynardo Saunders',
@@ -67,6 +67,6 @@ export {
   COINSFROM,
   COINSFTO,
   API_BASIC_URL,
-  roadmapInfo,
-  teamAvatar
+  RoadmapInfo,
+  TeamAvatar
 }
