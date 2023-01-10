@@ -40,25 +40,25 @@ const TeamAvatar = [
   {
     role: 'CEO',
     name: 'Naynardo Saunders',
-    url: '/assets/images/team/jrby.webp',
+    url: '/assets/images/team/NaynardoSaunders.jpg',
     link_url: 'https://www.linkedin.com/in/naynardo-saunders-381a34258'
   },
   {
     role: 'CTO',
     name: 'Amaury Loaiza',
-    url: '/assets/images/team/thegufi.webp',
+    url: '/assets/images/team/AmauryLoaiza.jpg',
     link_url:'https://www.linkedin.com/in/amaury-loaiza'
   },
   {
     role: 'CMO',
     name: 'Carlos Selman',
-    url: '/assets/images/team/zonedout.webp',
+    url: '/assets/images/team/CarlosSelman.jpg',
     link_url:"https://www.linkedin.com/in/carlos-selman-b5920a52"
   },
   {
     role: 'Lead Developer',
-    name: 'Sun Tana',
-    url: '/assets/images/team/thegufi.webp',
+    name: 'Sonny Tanaka',
+    url: '/assets/images/team/SonnyTanaka.png',
     link_url:'https://www.linkedin.com/in/sun-tana-6b2189236'
   },
 ]
