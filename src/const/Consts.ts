@@ -1,6 +1,6 @@
 const COINSFROM = ['ALGO', 'BNB', 'USDT', 'ETH', 'BTC', 'BUSD'];
 const COINSFTO = ['ALGO', 'BNB', 'USDT', 'ETH', 'BTC'];
-const API_BASIC_URL = "http://localhost:8000/api/";
+const API_BASIC_URL = process.env.REACT_APP_API_BASIC_URL;
 const RoadmapInfo = [
   {
     date: 'Q1 2023',
